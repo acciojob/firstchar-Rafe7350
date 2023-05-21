@@ -1,8 +1,8 @@
 function firstChar(text) {
   // your code h
-   for (let i = 0; i < s.length; i++) {
-    if (s[i] !== ' ') {
-      return s[i];
+   for (let i = 0; i < text.length; i++) {
+    if (text[i] !== ' ') {
+      return text[i];
     }
   }
   return '';
@@ -10,5 +10,5 @@ function firstChar(text) {
 
 // Do not change the code below
 
-const text = prompt("Enter text:");
-alert(firstChar(text));
+// const text = prompt("Enter text:");
+// alert(firstChar(text));

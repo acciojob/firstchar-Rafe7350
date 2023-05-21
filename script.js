@@ -1,8 +1,8 @@
 function firstChar(text) {
   // your code h
-  for (let char of string) {
-    if (char !== ' ') {
-      return char;
+   for (let i = 0; i < s.length; i++) {
+    if (s[i] !== ' ') {
+      return s[i];
     }
   }
   return '';

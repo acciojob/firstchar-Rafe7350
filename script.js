@@ -1,5 +1,11 @@
 function firstChar(text) {
-  // your code here
+  // your code h
+  for (let char of string) {
+    if (char !== ' ') {
+      return char;
+    }
+  }
+  return '';
 }
 
 // Do not change the code below
